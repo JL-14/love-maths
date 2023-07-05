@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 alert("You clicked Submit!");
             } else {
                 let gameType = this.getAttribute("data-type");
-                runGame("gameType");
+                runGame(gameType);
             }
         })
     }
